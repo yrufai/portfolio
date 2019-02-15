@@ -1,10 +1,13 @@
 .header {
   position: relative;
   display: inline-block;
-  height: 400px;
+  height: 350px;
   width: 100%;
   margin: auto;
-  background: #185861;
+  background: #04060f;
+  .particles {
+    position: absolute;
+  }
   .avatar {
     position: relative;
     height: 45%;
@@ -17,9 +20,9 @@
     img {
       height: 100%;
       border-radius: 50%;
-      //border: 2.5px solid #e0e0d9;
+      border: 2.5px solid #e0e0d9;
       outline: none;
-      box-shadow: 0px 0px 3px 1px #0c0a0a;
+      box-shadow: 0px 0px 3px 1px #739b98;
     }
   }
   .namep {
@@ -29,11 +32,10 @@
     margin: auto;
     padding-top: 20px;
     text-align: center;
-    color: #daabdf;
-    font-family: "Finger Paint", cursive;
-    h1,
-    h3,
-    h5 {
+    color: #f1ebf1;
+    font-family: "Raleway" // "Finger Paint", cursive;
+        h1,
+      h3, h5 {
       margin: 0px;
     }
   }

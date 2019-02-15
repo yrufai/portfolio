@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import avator from "./elrufai.jpg";
 import "./App.scss";
+import Particles from "react-particles-js";
+import config from "./particlesjs-config.json";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="header">
+          <Particles params={config.params} className="particles" />
           <div className="avatar">
             <img src={avator} />
           </div>
