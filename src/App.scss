@@ -1,5 +1,4 @@
 .App {
-  background-color: #0a192f;
   width: 100%;
   height: 100%;
 
@@ -9,19 +8,20 @@
   }
   .content {
     display: flex;
-    height: 650px;
+    height: 100%;
     .left-section {
       width: 10%;
       height: 80%;
       .social {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        align-items: center;
-        justify-content: flex-end;
+        //height: 100%;
+        //display: flex;
+        //flex-direction: column;
+        //align-items: center;
+        //justify-content: flex-end;
         li {
-          height: 50px;
+          align-content: flex-start;
+          list-style: none;
+          height: 60px;
         }
       }
     }
@@ -29,29 +29,56 @@
       width: 80%;
       margin: 40px;
       padding-left: 100px;
-      h1 {
-        font-size: 60px;
-        color: #e1ebf1;
-        font-family: "Eczar", serif;
-        line-height: 50px;
-      }
-      #h2 {
-        color: #8892b0;
-      }
-      #p1 {
-        color: #4af0cf;
-        font-size: 25px;
-        margin-top: 0px;
-        font-family: serif;
-      }
-      #p2 {
-        font-size: 18px;
-        width: 50%;
-        color: #8892b0;
+      #home {
+        margin-bottom: 200px;
+        h1 {
+          color: #e1ebf1;
+          font-size: 70px;
+          font-weight: 100;
+          line-height: 0.7;
+          margin: 25px;
+          margin-left: 0px;
+          font-family: "Eczar", serif;
+        }
+        #h2 {
+          color: #8892b0;
+        }
+        #p1 {
+          color: #4af0cf;
+          font-size: 25px;
+          margin-top: 0px;
+          font-family: serif;
+        }
+        #p2 {
+          font-size: 18px;
+          width: 60%;
+          color: #8892b0;
+        }
+        .contactButton {
+          outline: none;
+          background: #0a192f;
+          height: 60px;
+          width: 150px;
+          border: 2px solid #4af0cf;
+          color: aqua;
+          margin: 100px 0px 100px 0px;
+        }
       }
     }
     .right-section {
       width: 10%;
+      height: 80%;
+      .email {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        //flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        color: floralwhite;
+      }
     }
   }
 }
