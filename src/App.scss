@@ -1,62 +1,57 @@
-.header {
-  position: relative;
-  display: inline-block;
-  height: 350px;
+.App {
+  background-color: #0a192f;
   width: 100%;
-  margin: auto;
-  background: #04060f;
-  .particles {
-    position: absolute;
-  }
-  .avatar {
-    position: relative;
-    height: 45%;
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    img {
-      height: 100%;
-      border-radius: 50%;
-      border: 2.5px solid #e0e0d9;
-      outline: none;
-      box-shadow: 0px 0px 3px 1px #739b98;
-    }
-  }
-  .namep {
-    position: relative;
-    height: 40%;
+  height: 100%;
+
+  .navbar {
     display: block;
-    margin: auto;
-    padding-top: 20px;
-    text-align: center;
-    color: #f1ebf1;
-    font-family: "Raleway" // "Finger Paint", cursive;
-        h1,
-      h3, h5 {
-      margin: 0px;
-    }
+    height: 100px;
   }
-}
-@media (max-width: 420px) {
-  .header {
-    height: 370px;
-    font-size: 0.8em;
-    .avatar {
-      height: 45%;
-      img {
-        height: 95%;
+  .content {
+    display: flex;
+    height: 650px;
+    .left-section {
+      width: 10%;
+      height: 80%;
+      .social {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+        justify-content: flex-end;
+        li {
+          height: 50px;
+        }
       }
     }
-    .namep {
-      height: 55%;
-      margin-top: 10px;
-      padding-top: 0px;
-      h3 {
-        padding-top: 3px;
+    .main-area {
+      width: 80%;
+      margin: 40px;
+      padding-left: 100px;
+      h1 {
+        font-size: 60px;
+        color: #e1ebf1;
+        font-family: "Eczar", serif;
+        line-height: 50px;
       }
+      #h2 {
+        color: #8892b0;
+      }
+      #p1 {
+        color: #4af0cf;
+        font-size: 25px;
+        margin-top: 0px;
+        font-family: serif;
+      }
+      #p2 {
+        font-size: 18px;
+        width: 50%;
+        color: #8892b0;
+      }
+    }
+    .right-section {
+      width: 10%;
     }
   }
 }
