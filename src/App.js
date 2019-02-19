@@ -18,28 +18,6 @@ class App extends Component {
       <div className="App">
         <div className="navbar">navbar</div>
         <div className="content">
-          <div className="left-section">
-            <div className="social">
-              <ul>
-                <li>
-                  <FontAwesomeIcon icon={faGithub} color="white" size="lg" />
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faFacebook} color="white" size="lg" />
-                </li>
-                <li>
-                  <FontAwesomeIcon
-                    icon={faFreeCodeCamp}
-                    color="white"
-                    size="lg"
-                  />
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faCodepen} color="white" size="lg" />
-                </li>
-              </ul>
-            </div>
-          </div>
           <div className="main-area">
             <section id="home">
               <p id="p1">Hi, my name is </p>
@@ -59,6 +37,22 @@ class App extends Component {
             <div className="email">
               <p>yrufai23@gmail.com</p>
             </div>
+          </div>
+          <div className="left-section">
+            <ul>
+              <li>
+                <FontAwesomeIcon icon={faGithub} color="white" />
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faFacebook} color="white" />
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faFreeCodeCamp} color="white" />
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faCodepen} color="white" />
+              </li>
+            </ul>
           </div>
         </div>
       </div>
