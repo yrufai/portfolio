@@ -16,7 +16,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="navbar">navbar</div>
+        <div className="navbar">
+          <div>el</div>
+          <ul className="nav-list">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">portfolio</a>
+            </li>
+            <li>
+              <a href="#">Apply</a>
+            </li>
+          </ul>
+        </div>
         <div className="content">
           <div className="main-area">
             <section id="home">
