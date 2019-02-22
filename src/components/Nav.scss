@@ -22,13 +22,16 @@ nav {
     .navlist {
       display: flex;
       justify-content: space-between;
-      list-style: none;
       width: 30%;
-      color: #bcdbd9;
-      font-weight: bold;
-      .navlist li {
+
+      li {
+        list-style: none;
       }
-      .navlist a {
+      a {
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #bcdbd9;
+        text-decoration: none;
       }
     }
   }
@@ -39,6 +42,7 @@ nav {
     border-radius: 50%;
     height: 50px;
     margin: 1% 10%;
+    cursor: pointer;
     div {
       justify-content: center;
       background-color: #ebecec;
@@ -49,12 +53,45 @@ nav {
     }
   }
 }
+@media screen and (max-width: 940px) {
+  nav .navbar .navlist {
+    width: 45%;
+  }
+}
 
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   nav {
     justify-content: space-around;
+    height: 8vh;
     .navbar {
       width: 75%;
+      .navlist {
+        position: absolute;
+        width: 50%;
+        display: flex;
+        top: 10vh;
+        right: 0px;
+        background-color: #423129;
+        flex-direction: column;
+        height: 92vh;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        li {
+          justify-content: center;
+          margin: 20px;
+          opacity: 0;
+        }
+      }
+      .active-nav {
+        transform: translateX(0%);
+        transition: transform 0.5s ease-in;
+      }
     }
     .burger {
       display: block;
@@ -69,25 +106,28 @@ nav {
         align-items: center;
       }
     }
-  }
-  .navlist {
-    position: absolute;
-    width: 100%;
-
-    display: flex;
-    transform: translate(100%);
-    //overflow-x: hidden;
-    ul {
-      top: 41.5px;
-      right: 0px;
-      background-color: #b9d478;
-      position: absolute;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      height: 92vh;
-      margin: auto;
-      align-items: center;
+    .toggle .class1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+      width: 30px;
     }
+    .toggle .class2 {
+      opacity: 0;
+    }
+    .toggle .class3 {
+      transform: rotate(45deg) translate(-5px, -5px);
+      width: 30px;
+    }
+  }
+}
+
+@keyframes anim-navlinks {
+  from {
+    opacity: 0.4;
+    transform: translate(50%);
+    //transition: transform 0.3s ease-in;
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%);
   }
 }
