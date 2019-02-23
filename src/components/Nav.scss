@@ -61,15 +61,19 @@ nav {
 
 @media screen and (max-width: 768px) {
   body {
+    overflow: hidden;
+  }
+  html {
     overflow-x: hidden;
   }
+
   nav {
     justify-content: space-around;
     height: 8vh;
     .navbar {
       width: 75%;
       .navlist {
-        position: absolute;
+        position: fixed;
         width: 50%;
         display: flex;
         top: 10vh;
@@ -77,11 +81,11 @@ nav {
         background-color: #423129;
         flex-direction: column;
         height: 92vh;
-        margin: auto;
         align-items: center;
         justify-content: center;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        overflow-x: hidden;
         li {
           justify-content: center;
           margin: 20px;
@@ -123,8 +127,8 @@ nav {
 @keyframes anim-navlinks {
   from {
     opacity: 0.4;
-    transform: translate(50%);
-    //transition: transform 0.3s ease-in;
+    transform: translate(30%);
+    transition: transform 0.3s ease-in;
   }
   to {
     opacity: 1;
