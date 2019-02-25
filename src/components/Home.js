@@ -33,12 +33,14 @@ class Home extends React.Component {
     return (
       <div className="home" id="homepage">
         <Particles />
-        <h5 className="trans" id="hello">
-          hello,
-        </h5>
-        <h2 className="trans" id="name" />
-        <h4 className="trans">MERN Fullstack Web Developer</h4>
-        <h5>Teacher</h5>
+        <div className="container">
+          <h5 className="trans" id="hello">
+            hello,
+          </h5>
+          <h2 className="trans" id="name" />
+          <h4 className="trans">MERN Fullstack Web Developer</h4>
+          <h5>Teacher</h5>
+        </div>
       </div>
     );
   }
