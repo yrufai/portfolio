@@ -5,7 +5,10 @@ const Nav = () => {
   return (
     <nav>
       <div className="navbar">
-        <div className="brand">El-rufai</div>
+        <div className="brand">
+          <El-rufai />
+          {"</El-rufai> "}
+        </div>
         <ul className="navlist">
           <li>
             <a href="#">About</a>
