@@ -28,11 +28,11 @@ const Skills = () => {
           <ul>
             <li>HTML</li>
             <li>CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>REDUX</li>
-            <li>BOOTSTRAP</li>
-            <li>FLEXBOX</li>
+            <li>Javascript</li>
+            <li>ReactJS</li>
+            <li>Redux</li>
+            <li>Bootstrap</li>
+            <li>Flexbox</li>
           </ul>
         </div>
         <div className="set">
@@ -41,12 +41,12 @@ const Skills = () => {
             Back-End:
           </h2>
           <ul>
-            <li>NODEJS</li>
-            <li>EXPRESSJS</li>
-            <li>MONGODB/MONGOOSE</li>
+            <li>NodeJS</li>
+            <li>ExpressJS</li>
+            <li>MongoDB/Mongoose</li>
             <li>REST/APIs</li>
-            <li>HEROKU</li>
-            <li>PASSPORTJS</li>
+            <li>Heroku</li>
+            <li>PassportJS</li>
           </ul>
         </div>
         <div className="set">
@@ -55,11 +55,11 @@ const Skills = () => {
             Tools:
           </h2>
           <ul>
-            <li>GIT</li>
-            <li>GITHUB</li>
+            <li>Git</li>
+            <li>Github</li>
             <li>VS CODE</li>
             <li>NPM</li>
-            <li>CHROME</li>
+            <li>Chrome</li>
           </ul>
         </div>
       </div>

@@ -30,6 +30,7 @@
       margin: auto;
       display: flex;
       flex-direction: column;
+      font-weight: bold;
       h2 {
         font-size: 35px;
         font-family: "Montserrat", sans-serif;
@@ -57,5 +58,10 @@
         }
       }
     }
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills-title {
+    margin: 2px;
   }
 }

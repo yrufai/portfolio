@@ -36,7 +36,7 @@ class Home extends React.Component {
         <div className="nav-area">
           <div className="container">
             <h5 className="trans" id="hello">
-              hello,
+              Hello,
             </h5>
             <h2 className="trans" id="name" />
             <h4 className="trans">MERN Fullstack Web Developer</h4>

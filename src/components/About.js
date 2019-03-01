@@ -10,8 +10,9 @@ const About = () => {
       <div className="about-content">
         <h3>Hello!</h3>
         <p>
-          My name is El-rufai and I am a front end developer. I love building
-          beautiful and interactive things on the web.
+          My name is Yakubu Ahmed El-rufai and I am a MERN Fullstack web
+          developer. I love building beautiful and interactive things on the
+          web.
         </p>
         <p>
           Before I started coding I worked as a basic school teacher for several
