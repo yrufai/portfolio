@@ -1,43 +1,41 @@
-#aboutPage {
-  display: block;
-  margin-top: 50px;
-  height: 600px;
+#about {
+  height: 70vh;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
   .about-title {
-    width: 100%;
-    color: aqua;
-    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 10%;
+    text-align: center;
+    margin: 60px auto 40px;
+    color: #414141;
+    font-family: "Montserrat", sans-serif;
+  }
+  .about-title::after {
+    content: "______";
+    border-bottom: 2px solid #9fb2b9;
+    padding: 8px 20px;
   }
   .about-content {
-    display: flex;
-    width: 100%;
-    .writing {
-      width: 60%;
-      color: #8892b0;
-      p {
-        width: 80%;
-      }
-      li {
-        list-style: square;
-        margin-left: 0px;
-      }
-    }
-    .photo {
-      width: 40%;
-      #pic {
-        width: 75%;
-        margin-left: 50px;
-        img {
-          width: 100%;
-          box-shadow: 3px 3px 3px #140f12;
-          border-radius: 10px;
-          opacity: 0.5;
-        }
-        img:hover {
-          opacity: 1;
-        }
-      }
+    font-size: 22px;
+    height: 70%;
+    width: 50%;
+    margin: auto;
+
+    p {
+      display: block;
+      text-align: start;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      color: #a6a8a6;
+      margin: 0px;
+      font-size: 20px;
+      word-wrap: normal;
     }
   }
-}
-@media (max-width: 965px) {
 }

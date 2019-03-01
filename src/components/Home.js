@@ -7,7 +7,7 @@ class Home extends React.Component {
     super(props);
     this.display = this.display.bind(this);
     this.state = {
-      name: "I'm Ahmed El-Rufai"
+      name: "I'm Ahmed El-rufai"
     };
   }
 
@@ -33,13 +33,15 @@ class Home extends React.Component {
     return (
       <div className="home" id="homepage">
         <Particles />
-        <div className="container">
-          <h5 className="trans" id="hello">
-            hello,
-          </h5>
-          <h2 className="trans" id="name" />
-          <h4 className="trans">MERN Fullstack Web Developer</h4>
-          <h5>Teacher</h5>
+        <div className="nav-area">
+          <div className="container">
+            <h5 className="trans" id="hello">
+              hello,
+            </h5>
+            <h2 className="trans" id="name" />
+            <h4 className="trans">MERN Fullstack Web Developer</h4>
+            <h5>Teacher</h5>
+          </div>
         </div>
       </div>
     );

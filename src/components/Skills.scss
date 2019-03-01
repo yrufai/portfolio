@@ -1,0 +1,61 @@
+#skills {
+  height: 80vh;
+  width: 100%;
+  background: #212524;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  .skills-title {
+    margin: 60px auto 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 10%;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+  }
+  .skills-title::after {
+    content: "______";
+    border-bottom: 2px solid #9fb2b9;
+    padding: 8px 20px;
+  }
+  .skill {
+    display: flex;
+    width: 70%;
+    height: 85%;
+    margin: auto;
+    justify-content: space-between;
+    .set {
+      height: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-size: 35px;
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+      }
+      ul {
+        height: 70%;
+        margin: auto;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        li {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          list-style: none;
+          color: #ffffff;
+          font-family: "Montserrat", sans-serif;
+          text-transform: capitalize;
+
+          //padding: 10px;
+        }
+      }
+    }
+  }
+}
