@@ -36,12 +36,7 @@
       }
       #name {
         font-family: "Special Elite", cursive;
-        //color: beige;
       }
-    }
-    .container::after {
-      content: " _";
-      border-right: 2px solid yellow;
     }
   }
 }
