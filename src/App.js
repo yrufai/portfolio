@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div id="mainPage">
         <Nav />
         <Home />
         <About />

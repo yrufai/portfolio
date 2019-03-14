@@ -1,6 +1,7 @@
 import React from "react";
 import Particles from "./Particles";
 import "./Home.scss";
+import pic from "../elrufai.jpg";
 
 class Home extends React.Component {
   constructor(props) {
@@ -39,7 +40,7 @@ class Home extends React.Component {
               Hello,
             </h5>
             <h2 className="trans" id="name" />
-            <h4 className="trans">MERN Fullstack Web hDeveloper</h4>
+            <h4 className="trans">MERN Fullstack Web Developer</h4>
             <h5>Teacher</h5>
           </div>
         </div>

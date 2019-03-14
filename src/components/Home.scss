@@ -4,8 +4,15 @@
   font-size: 35px;
   color: #8892b0;
   .nav-area {
-    background: #061d29;
+    background: #e9a2d7;
     height: 90vh;
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 50px;
+      margin-bottom: 0px;
+    }
     .container {
       width: 50%;
       height: 55%;
@@ -15,6 +22,7 @@
       align-items: center;
       margin: auto;
       padding-top: 180px;
+
       .trans:hover {
         transform: translate(10%, 25%);
         transition: transform 2s ease;
@@ -52,15 +60,23 @@
 @media screen and (max-width: 480px) {
   .home {
     font-size: 25px;
-    .container {
-      padding-top: 150px;
+    .nav-area {
+      .container {
+        width: 80%;
+        height: 50%;
+        padding-top: 165px;
+        #name {
+          font-size: 20px;
+        }
+      }
     }
   }
 }
-@media screen and (max-width: 342px) {
+@media screen and (max-width: 375px) {
   .home {
     font-size: 20px;
     .container {
+      width: 80%;
       padding-top: 150px;
     }
   }

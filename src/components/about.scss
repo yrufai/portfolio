@@ -39,3 +39,38 @@
     }
   }
 }
+
+@media (max-width: 770px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #about {
+    .about-content {
+      width: 85%;
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  #mainPage {
+    overflow-x: hidden;
+  }
+  #about {
+    .about-title {
+      margin: 10px auto 40px;
+      padding: 2px;
+    }
+    .about-content {
+      background: white;
+      width: 95%;
+      height: 90%;
+      p {
+        font-size: 18px;
+        padding: 5px;
+      }
+    }
+  }
+}
