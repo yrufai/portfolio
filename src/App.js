@@ -9,7 +9,6 @@ class App extends React.Component {
   render() {
     return (
       <div id="mainPage">
-        <Nav />
         <Home />
         <About />
         <Skills />
