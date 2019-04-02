@@ -1,17 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
-import {
-  faHtml5,
-  faCss3,
-  faReact,
-  faSass,
-  faGit,
-  faNode,
-  faJs,
-  faBlackberry,
-  faGithub
-} from "@fortawesome/free-brands-svg-icons";
 import "./Skills.scss";
 const Skills = () => {
   return (
