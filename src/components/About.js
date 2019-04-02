@@ -21,8 +21,8 @@ const About = () => {
         </p>
         <p>
           I was born and raised in Ghana, love being creative and taking up new
-          challenges. That's how I ended up being a web developer and is pretty
-          a challenging field to be in. #bornToCode
+          challenges. That's how I ended up being a web developer and is a
+          pretty challenging field to be in. #bornToCode
         </p>
       </div>
     </div>
