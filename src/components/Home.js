@@ -13,6 +13,7 @@ class Home extends React.Component {
       name: "I'm Yakubu Ahmed El-rufai"
     };
   }
+
   render() {
     return (
       <div className="home" id="homepage">
