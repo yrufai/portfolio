@@ -10,7 +10,7 @@ class Home extends React.Component {
     super(props);
     //this.display = this.display.bind(this);
     this.state = {
-      name: "I'm Yakubu Ahmd El-rufai"
+      name: "I'm Yakubu Ahmed El-rufai"
     };
   }
 
