@@ -23,7 +23,7 @@ class Home extends React.Component {
           <img src={pic} alt="elrufai" />
           <div className="profile">
             <h3>Yakubu Ahmed El-rufai</h3>
-            <h5>Front-End Developer</h5>
+            <h5>Front-End Dveloper</h5>
           </div>
           <div className="socialButtons">
             <button>
